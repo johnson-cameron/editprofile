@@ -1,0 +1,126 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  background: #eee;
+  color: black;
+}
+
+body{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  font-family: 'Work Sans', sans-serif;
+}
+
+input{
+  padding: 14px;
+  border-radius: 20px;
+  margin: 15px;
+  margin-top: 5px;
+  width: 90%;
+  font-family: 'Work Sans', sans-serif;
+}
+
+textarea{
+  padding: 14px;
+  border-radius: 20px;
+  margin: 15px;
+  margin-top: 5px;
+  width: 90%;
+  font-family: 'Work Sans', sans-serif;
+}
+
+form{
+  width: 400px;
+  box-shadow: 0px 0px 10px 0px rgba(204,204,204,1);
+  background-color: white;
+  border-radius: 15px;
+  text-align: center;
+  margin: 15px;
+}
+
+h3{
+  color: #505355;
+  background-color: white;
+  padding: 25px 10px 10px 22px;
+  border-radius: 15px;
+  text-align: left;
+}
+
+h4{
+  background-color: white;
+  color: #1ECEFD;
+  margin-left: 22px;
+  margin-top: 10px;
+  text-align: left;
+}
+
+.bio{
+  background-color: white;
+  margin-left: 15px;
+  margin-right: 15px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div{
+  width: 400px;
+  margin-top: 15px;
+  box-shadow: 0px 0px 10px 0px rgba(204,204,204,1);
+  border-radius: 15px;
+  background-color: white;
+}
+
+button{
+  width: 90%;
+  padding: 10px 0 10px 0;
+  border-radius: 15px;
+  background-color: #505355;
+  color: white;
+  margin: 15px;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 15px;
+}
+
+h2{
+  margin-top: 20px;
+}
+
+p{
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  justify-content: center;
+  background-color: black;
+}
+
+#email{
+  color: #eee;
+  
+}
+
+#bio{
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+img{
+  background-color: #1ECEFD;
+}
+
+section{
+  width: 100%;
+  background-color: #1ECEFD;
+  text-align: center;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+button:hover{
+  background-color: #5BECD8;
+  color: black;
+}
